@@ -7,6 +7,14 @@
     <groupId>com.company</groupId>
     <artifactId>geometry-project</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>geometry-app</module>
+        <module>geometry-library</module>
+        <module>geometry-library/three-d-shapes</module>
+        <module>geometry-utils</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
