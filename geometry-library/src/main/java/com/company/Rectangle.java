@@ -1,4 +1,4 @@
-package company;
+package com.company;
 
 public class Rectangle implements Shape {
     private final double width;
